@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.02a4a828.css",
-    "main.js": "/static/js/main.d3b439af.js",
-    "static/js/787.8280ef8a.chunk.js": "/static/js/787.8280ef8a.chunk.js",
-    "static/media/ironvideo2.mp4": "/static/media/ironvideo2.1805e38caaceca4f0678.mp4",
-    "static/media/ironvideo1.mp4": "/static/media/ironvideo1.33e53630b97b9a63dc5c.mp4",
-    "static/media/ironvideo4.mp4": "/static/media/ironvideo4.c8c8eefe22652d16aff1.mp4",
-    "static/media/ironvideo3.mp4": "/static/media/ironvideo3.2f7aa1b2b8b810f595c7.mp4",
-    "static/media/pipelineservices.jpeg": "/static/media/pipelineservices.e03dc2508521eceb0533.jpeg",
-    "static/media/Banner 2.jpg": "/static/media/Banner 2.49c044a80534e4d8716f.jpg",
-    "static/media/um-logo.jpg": "/static/media/um-logo.88ad3a89dbb5896cecfa.jpg",
-    "static/media/Banner 1.jpg": "/static/media/Banner 1.901740dcc4b430349668.jpg",
-    "static/media/streetsweeper.png": "/static/media/streetsweeper.587bb38e51c2fef9e202.png",
-    "static/media/marineassetretrieval.png": "/static/media/marineassetretrieval.c81871ede887de2528e0.png",
-    "static/media/environmentaltruck.png": "/static/media/environmentaltruck.1c1dc1bf71138912cfab.png",
-    "static/media/ironlinkedinthumb.png": "/static/media/ironlinkedinthumb.ce10eacc463a03221445.png",
-    "static/media/hydrovactruck.png": "/static/media/hydrovactruck.774424c8c62365a34a43.png",
-    "static/media/company-logo.png": "/static/media/company-logo.694436b6a814a9806ad6.png",
-    "static/media/firstaid.jpeg": "/static/media/firstaid.74f12884e37156652755.jpeg",
-    "index.html": "/index.html",
-    "main.02a4a828.css.map": "/static/css/main.02a4a828.css.map",
-    "main.d3b439af.js.map": "/static/js/main.d3b439af.js.map",
-    "787.8280ef8a.chunk.js.map": "/static/js/787.8280ef8a.chunk.js.map"
+    "main.css": "/udupimunch/static/css/main.02a4a828.css",
+    "main.js": "/udupimunch/static/js/main.35a45ba6.js",
+    "static/js/787.8280ef8a.chunk.js": "/udupimunch/static/js/787.8280ef8a.chunk.js",
+    "static/media/ironvideo2.mp4": "/udupimunch/static/media/ironvideo2.1805e38caaceca4f0678.mp4",
+    "static/media/ironvideo1.mp4": "/udupimunch/static/media/ironvideo1.33e53630b97b9a63dc5c.mp4",
+    "static/media/ironvideo4.mp4": "/udupimunch/static/media/ironvideo4.c8c8eefe22652d16aff1.mp4",
+    "static/media/ironvideo3.mp4": "/udupimunch/static/media/ironvideo3.2f7aa1b2b8b810f595c7.mp4",
+    "static/media/pipelineservices.jpeg": "/udupimunch/static/media/pipelineservices.e03dc2508521eceb0533.jpeg",
+    "static/media/Banner 2.jpg": "/udupimunch/static/media/Banner 2.49c044a80534e4d8716f.jpg",
+    "static/media/um-logo.jpg": "/udupimunch/static/media/um-logo.88ad3a89dbb5896cecfa.jpg",
+    "static/media/Banner 1.jpg": "/udupimunch/static/media/Banner 1.901740dcc4b430349668.jpg",
+    "static/media/streetsweeper.png": "/udupimunch/static/media/streetsweeper.587bb38e51c2fef9e202.png",
+    "static/media/marineassetretrieval.png": "/udupimunch/static/media/marineassetretrieval.c81871ede887de2528e0.png",
+    "static/media/environmentaltruck.png": "/udupimunch/static/media/environmentaltruck.1c1dc1bf71138912cfab.png",
+    "static/media/ironlinkedinthumb.png": "/udupimunch/static/media/ironlinkedinthumb.ce10eacc463a03221445.png",
+    "static/media/hydrovactruck.png": "/udupimunch/static/media/hydrovactruck.774424c8c62365a34a43.png",
+    "static/media/company-logo.png": "/udupimunch/static/media/company-logo.694436b6a814a9806ad6.png",
+    "static/media/firstaid.jpeg": "/udupimunch/static/media/firstaid.74f12884e37156652755.jpeg",
+    "index.html": "/udupimunch/index.html",
+    "main.02a4a828.css.map": "/udupimunch/static/css/main.02a4a828.css.map",
+    "main.35a45ba6.js.map": "/udupimunch/static/js/main.35a45ba6.js.map",
+    "787.8280ef8a.chunk.js.map": "/udupimunch/static/js/787.8280ef8a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.02a4a828.css",
-    "static/js/main.d3b439af.js"
+    "static/js/main.35a45ba6.js"
   ]
 }
