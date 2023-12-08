@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Video1 from '../../videos/ironvideo1.mp4';
+
+import Banner1 from '../../images/Banner 1.jpg';
 import Video2 from '../../videos/ironvideo2.mp4';
 import Video3 from '../../videos/ironvideo3.mp4';
 import Video4 from '../../videos/ironvideo4.mp4';
@@ -51,18 +53,28 @@ const HeroSection = () => {
   };
 
   return (
-    <HeroContainer id="home">
-      <HeroBg>
-        <VideoBg
-          autoPlay
-          loop={false}
-          muted
+    <HeroContainer id="home" style={{
+      width: '100%',
+      height: '100vh',
+      overflow: "hidden"
+    }}>
+      <HeroBg style={{
+          backgroundImage: `url("${Banner1}")` ,
+          backgroundPosition: 'center',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          overflow: "hidden"
+        }}>
+        {/* <VideoBg
+        
           id="heroVideo"
-          src={videoSrc}
-          type="video/mp4"
-        />
+          src={Banner1}
+          height={'100%'}
+          width={'100%'}
+        /> */}
+        
       </HeroBg>
-      <HeroContent>
+      {/* <HeroContent>
         <HeroH1>Indigenous Iron Construction</HeroH1>
         <HeroP>
           Bridging Cultures, Strengthening Communities and Providing Quality
@@ -85,7 +97,7 @@ const HeroSection = () => {
             Get A Free Consultation {hover ? <ArrowRight /> : <ArrowForward />}
           </Button>
         </HeroBtnWrapper>
-      </HeroContent>
+      </HeroContent> */}
     </HeroContainer>
   );
 };

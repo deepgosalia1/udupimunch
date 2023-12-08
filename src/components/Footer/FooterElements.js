@@ -2,7 +2,23 @@ import styled from 'styled-components';
 import { Link } from 'react-router-dom';
 
 export const FooterContainer = styled.footer`
-    background-color: #101522;
+    background-color: #35363A;
+`;
+
+export const HeroBg = styled.div`
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    flex:1;
+    // overflow: hidden;
+`;
+
+export const VideoBg = styled.img`
+    object-fit: cover;
+    background: #232a34;
+    // aspect-ratio: 2;
 `;
 
 export const FooterWrap = styled.div`

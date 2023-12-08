@@ -9,10 +9,8 @@ import {
     NavMenu,
     NavItem,
     NavLinks,
-    NavBtn,
-    NavBtnLink
 } from './NavbarElements';
-import logo from '../.././images/header-logo.png';
+import logo from '../.././images/um-logo.jpg';
 
 const Navbar = ({ toggle }) => {
     const [scrollNav, setScrollNav] = useState(false)
@@ -39,34 +37,38 @@ const Navbar = ({ toggle }) => {
             <IconContext.Provider value={{ color: "#fff" }}>
                 <Nav scrollNav={scrollNav}>
                     <NavbarContainer>
-                        <img src={logo} alt="Indigenous Iron" onClick={toggleHome} />
+                        <img
+                            src={logo}
+                            alt="Udupi Munch"
+                            height={125}
+                            onClick={toggleHome} />
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
                         <NavMenu>
-														<NavItem>
-                                <NavLinks to="services"
+                            <NavItem>
+                                <NavLinks to="home"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
                                     exact='true'
-                                    offset={-80}>Services</NavLinks>
+                                    offset={-80}>Home</NavLinks>
                             </NavItem>
                             <NavItem>
-                                <NavLinks to="discover"
-                                    smooth={true}
-                                    duration={500}
-                                    spy={true}
-                                    exact='true'
-                                    offset={-80}>Company</NavLinks>
-                            </NavItem>
-														<NavItem>
                                 <NavLinks to="about"
                                     smooth={true}
                                     duration={500}
                                     spy={true}
                                     exact='true'
-                                    offset={-80}>Projects</NavLinks>
+                                    offset={-80}>About Us</NavLinks>
+                            </NavItem>
+                            <NavItem>
+                                <NavLinks to="products"
+                                    smooth={true}
+                                    duration={500}
+                                    spy={true}
+                                    exact='true'
+                                    offset={-80}>Products</NavLinks>
                             </NavItem>
                             <NavItem>
                                 <NavLinks to="contact"
@@ -77,9 +79,6 @@ const Navbar = ({ toggle }) => {
                                     offset={-80}>Contact</NavLinks>
                             </NavItem>
                         </NavMenu>
-                        <NavBtn>
-													<NavBtnLink href="tel:+16043294094">Call 604-329-4094</NavBtnLink>
-                        </NavBtn>
                     </NavbarContainer>
                 </Nav>
             </IconContext.Provider>

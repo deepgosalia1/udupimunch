@@ -1,11 +1,22 @@
 import styled from 'styled-components';
-import {Link as LinkRouter} from 'react-router-dom';
-import {Link as LinkScroll} from 'react-scroll';
+import { Link as LinkRouter } from 'react-router-dom';
+import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
-    background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
-    height: 80px;
-    margin-top: -80px;
+    background: ${({ scrollNav }) => (scrollNav ? '#35363A' : '#35363A')};
+    background-color: #35363A;
+    background-image:
+        linear-gradient(
+        to right, 
+        #35363A, #35363A, #010101
+        );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 10.5px );
+    -webkit-backdrop-filter: blur( 10.5px );
+    border-radius: 5px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    height: 125px;
+    // margin-top: -80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,11 +33,11 @@ export const Nav = styled.nav`
 export const NavbarContainer = styled.div`
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 125px;
     z-index: 1;
     width: 100%;
-    padding: 0 24px;
-    max-width: 1100px;
+    padding: 0 10%;
+    // max-width: 1100px;
 `;
 
 export const NavLogo = styled(LinkRouter)`
@@ -62,7 +73,7 @@ export const NavMenu = styled.ul`
     justify-content: center;
     list-style: none;
     text-align: center;
-    margin: auto;
+    // margin: auto;
     // margin-right: -22px;
 
     // not shown on mobile
@@ -83,10 +94,13 @@ export const NavLinks = styled(LinkScroll)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
-
+    font-family: 'Georgia', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    text-transform: uppercase;
     //bottom green bar when selected
     &.active {
-        border-bottom: 3px solid #01bf71;
+        color: #A68748;
     }
 `;
 

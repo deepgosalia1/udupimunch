@@ -1,21 +1,23 @@
 import React from 'react';
-import {animateScroll as scroll } from 'react-scroll';
+import { animateScroll as scroll } from 'react-scroll';
 import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin } from 'react-icons/fa';
-import { FooterContainer, 
-        FooterWrap, 
-        FooterLinksContainer, 
-        FooterLinksWrapper, 
-        FooterLinkItems, 
-        FooterLinkTitle,
-        SocialMedia,
-        SocialMediaWrap,
-        SocialLogo,
-        WebsiteRights,
-        SocialIcons,
-        SocialIconLink,
-    		} 
-        from './FooterElements';
-
+import {
+    FooterContainer,
+    FooterWrap,
+    FooterLinksContainer,
+    FooterLinksWrapper,
+    FooterLinkItems,
+    FooterLinkTitle,
+    SocialMedia,
+    SocialMediaWrap,
+    SocialLogo,
+    WebsiteRights,
+    SocialIcons,
+    SocialIconLink,
+    VideoBg
+}
+    from './FooterElements';
+import logo from '../../images/um-logo.jpg'
 const Footer = () => {
 
     //function that scrolls to top of page
@@ -27,24 +29,14 @@ const Footer = () => {
         <FooterContainer id='footer'>
             <FooterWrap>
                 <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Services</FooterLinkTitle>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Company</FooterLinkTitle>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                        <FooterLinkTitle>Projects</FooterLinkTitle>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                        <FooterLinkTitle>Contact</FooterLinkTitle>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
+                    <VideoBg
+                        id="heroVideo"
+                        src={logo}
+                        height={'50%'}
+                        width={'50%'}
+                    />
                 </FooterLinksContainer>
-                <SocialMedia>
+                {/* <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to="/" onClick={toggleHome}>
                             Indigenous Iron Construction
@@ -68,9 +60,9 @@ const Footer = () => {
                             </SocialIconLink>
                         </SocialIcons>
                     </SocialMediaWrap>
-                </SocialMedia>
+                </SocialMedia> */}
             </FooterWrap>
-            
+
         </FooterContainer>
     )
 }
