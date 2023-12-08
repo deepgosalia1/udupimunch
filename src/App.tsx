@@ -1,10 +1,10 @@
 import './App.css';
 import LandingPage from './components/landing'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <Router basename='/udupimunch'>
+    <Router basename={window.location.pathname || ''}>
       <Routes>
         <Route path="/" element={<LandingPage />} />
       </Routes>
