@@ -1,7 +1,7 @@
 {
   "name": "udupimunch",
   "version": "0.1.0",
-  "homepage": "https://deepgosalia1.github.io/udupimunch",
+  "homepage": "https://deepgosalia1.github.io",
   "private": true,
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
